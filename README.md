@@ -25,9 +25,6 @@ namespace Digster;
 class Plugin_Loader {}
 ```
 
-## Todo
-- [ ] Autoload classes without namespace prefix
-
 ## License
 
 MIT © [Fredrik Forsmo](https://github.com/frozzare)
