@@ -1,0 +1,16 @@
+{
+  "name": "frozzare/wp-autoload",
+  "description": "Simple PHP autoloader that will autoload `class-$class.php` classes with namespace prefix",
+  "keywords": ["wordpress", "autoload", "namespace"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fredrik Forsmo",
+      "email": "fredrik.forsmo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "minimum-stability": "dev"
+}
