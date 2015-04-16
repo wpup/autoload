@@ -19,6 +19,11 @@ spl_autoload_register( function ( $class ) {
 
 	// base directory for the namespace prefix
 	$base_dir = WP_AUTOLOAD_BASE_DIR;
+	$base_len = strlen( $base_dir ) - 1;
+
+	if ( $base_dir[$base_len] !== '/' ) {
+		$base_dir .= '/';
+	}
 
 	// does the class use the namespace prefix?
 	$len = strlen( $prefix );
