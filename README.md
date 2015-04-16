@@ -13,7 +13,7 @@ $ composer require frozzare/wp-autoload
 ```php
 define('WP_AUTOLOAD_PREFIX', 'Digster\\');
 define('WP_AUTOLOAD_BASE_DIR', __DIR__ . '/src');
-require 'vendor/frozzare/wp-autoload/autoload.php';
+require 'vendor/autoload.php';
 ```
 
 ## License
