@@ -1,6 +1,6 @@
 # WordPress Autoload
 
-Simple autoloader that will autoload `class-$class.php` classes with namespace prefix.
+Simple autoloader that will autoload classes or traits with namespace prefix
 
 # Install
 
