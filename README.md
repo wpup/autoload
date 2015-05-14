@@ -1,5 +1,7 @@
 # WordPress Autoload
 
+[![Build Status](https://travis-ci.org/frozzare/wp-autoload.svg?branch=master)](https://travis-ci.org/frozzare/wp-autoload)
+
 Simple autoloader that will autoload classes or traits with namespace prefix
 
 # Install
