@@ -6,7 +6,7 @@ if ( ! defined( 'WP_AUTOLOAD_PREFIX' ) || ! defined( 'WP_AUTOLOAD_BASE_DIR' ) ) 
 }
 
 /**
- * Register the autoloader for the Digster plugin classes.
+ * Register the autoloader.
  *
  * The autoloader understands `class-$class.php` naming convention.
  *
