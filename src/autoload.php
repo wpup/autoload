@@ -1,10 +1,5 @@
 <?php
 
-// Will not proceed without `WP_AUTOLOAD_PREFIX` or `WP_AUTOLOAD_BASE_DIR`.
-if ( ! defined( 'WP_AUTOLOAD_PREFIX' ) || ! defined( 'WP_AUTOLOAD_BASE_DIR' ) ) {
-	return;
-}
-
 /**
  * Register the autoloader.
  *
@@ -14,6 +9,11 @@ if ( ! defined( 'WP_AUTOLOAD_PREFIX' ) || ! defined( 'WP_AUTOLOAD_BASE_DIR' ) ) 
  */
 
 spl_autoload_register( function ( $class ) {
+	// Will not proceed without `WP_AUTOLOAD_PREFIX` or `WP_AUTOLOAD_BASE_DIR`.
+	if ( ! defined( 'WP_AUTOLOAD_PREFIX' ) || ! defined( 'WP_AUTOLOAD_BASE_DIR' ) ) {
+		return;
+	}
+
 	// project-specific namespace prefix
 	$prefix = WP_AUTOLOAD_PREFIX;
 
