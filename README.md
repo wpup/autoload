@@ -15,9 +15,8 @@ $ composer require frozzare/wp-autoload
 Example of your main php file.
 
 ```php
-define('WP_AUTOLOAD_PREFIX', 'Digster\\');
-define('WP_AUTOLOAD_BASE_DIR', __DIR__ . '/src');
 require 'vendor/autoload.php';
+register_wp_autoload('Digster\\', __DIR__ . '/src');
 ```
 
 Example of `src/class-plugin-loader.php`
