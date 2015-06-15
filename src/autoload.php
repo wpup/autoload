@@ -36,10 +36,10 @@ if ( ! function_exists( 'register_wp_autoload' ) ) {
 			$files = [];
 
 			// the autoloader understands `class-$class.php` and `trait-$trait.php`.
-			foreach ( ['class', 'trait', ''] as $type ) {
+			foreach ( ['class-', 'trait-', ''] as $type ) {
 				$parts = explode( '\\', $relative_class );
 				$last  = array_pop( $parts );
-				$last  = $type . '-' . str_replace( '_', '-', $last );
+				$last  = $type . str_replace( '_', '-', $last );
 				$parts[] = $last;
 				$files[] = implode( '\\', $parts );
 			}
