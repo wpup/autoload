@@ -16,7 +16,7 @@ Example of your main php file.
 
 ```php
 require 'vendor/autoload.php';
-register_wp_autoload('Digster\\', __DIR__ . '/src');
+register_wp_autoload( 'Digster\\', __DIR__ . '/src' );
 ```
 
 Example of `src/class-plugin-loader.php`
