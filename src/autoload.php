@@ -10,7 +10,6 @@ if ( ! function_exists( 'register_wp_autoload' ) ) {
 	 * @param string $prefix
 	 * @param string $base_dir
 	 */
-
 	function register_wp_autoload( $prefix, $base_dir ) {
 		if ( empty( $prefix ) || empty( $base_dir ) ) {
 			return;
