@@ -32,6 +32,7 @@ if ( ! function_exists( 'register_wp_autoload' ) ) {
 
 			// get the relative class name
 			$relative_class = substr( $class, $len );
+			$relative_class = str_replace( '_', '-', $relative_class );
 			$files = [];
 
 			// the autoloader understands `class-$class.php` and `trait-$trait.php`.
