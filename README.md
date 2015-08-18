@@ -33,6 +33,13 @@ namespace Digster;
 trait Crawler {}
 ```
 
+Example of `src/interface-say.php`
+
+```php
+namespace Digster;
+interface Say {}
+```
+
 ## License
 
 MIT © [Fredrik Forsmo](https://github.com/frozzare)
