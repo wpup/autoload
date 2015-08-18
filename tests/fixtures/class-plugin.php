@@ -4,7 +4,7 @@ namespace Hello;
 
 use Hello\Extra\Length;
 
-class Plugin {
+class Plugin implements Say {
 	use Name;
 	use Length;
 

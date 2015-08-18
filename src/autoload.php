@@ -35,8 +35,7 @@ if ( ! function_exists( 'register_wp_autoload' ) ) {
 			$relative_class = str_replace( '_', '-', $relative_class );
 			$files = [];
 
-			// the autoloader understands `class-$class.php` and `trait-$trait.php`.
-			foreach ( ['class-', 'trait-', ''] as $type ) {
+			foreach ( ['interface-', 'class-', 'trait-', ''] as $type ) {
 				$parts = explode( '\\', $relative_class );
 				$last  = array_pop( $parts );
 				$last  = $type . str_replace( '_', '-', $last );
