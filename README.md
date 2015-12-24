@@ -17,27 +17,27 @@ Example of your main php file.
 
 ```php
 require 'vendor/autoload.php';
-register_wp_autoload( 'Digster\\', __DIR__ . '/src' );
+register_wp_autoload( 'Example\\', __DIR__ . '/src' );
 ```
 
 Example of `src/class-plugin-loader.php`
 
 ```php
-namespace Digster;
+namespace Example;
 class Plugin_Loader {}
 ```
 
 Example of `src/trait-crawler.php`
 
 ```php
-namespace Digster;
+namespace Example;
 trait Crawler {}
 ```
 
 Example of `src/interface-say.php`
 
 ```php
-namespace Digster;
+namespace Example;
 interface Say {}
 ```
 
