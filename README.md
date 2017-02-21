@@ -1,7 +1,6 @@
 # WordPress Autoload
 
-[![Build Status](https://travis-ci.org/frozzare/wp-autoload.svg?branch=master)](https://travis-ci.org/frozzare/wp-autoload)
-[![License](https://img.shields.io/packagist/l/frozzare/wp-autoload.svg)](https://packagist.org/packages/frozzare/wp-autoload)
+[![Build Status](https://travis-ci.org/wpup/autoload.svg?branch=master)](https://travis-ci.org/wpup/autoload)
 
 Simple autoloader that will autoload classes, interfaces or traits with namespace prefix
 
