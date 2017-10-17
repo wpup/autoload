@@ -7,7 +7,7 @@ Simple autoloader that will autoload classes, interfaces or traits with namespac
 # Install
 
 ```
-$ composer require frozzare/wp-autoload
+composer require frozzare/wp-autoload
 ```
 
 ## Example
