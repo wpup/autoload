@@ -1,6 +1,7 @@
 # WordPress Autoload
 
 [![Build Status](https://travis-ci.org/wpup/autoload.svg?branch=master)](https://travis-ci.org/wpup/autoload)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 Simple autoloader that will autoload classes, interfaces or traits with namespace prefix
 
